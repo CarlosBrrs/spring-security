@@ -3,8 +3,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_security
     driver-class-name: org.postgresql.Driver
-    username:
-    password:
+    username: postgres
+    password: admin
   jpa:
     hibernate:
       ddl-auto: create-drop
